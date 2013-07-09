@@ -1,0 +1,990 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"inc",
+				"inc	@include"
+			],
+			[
+				"base",
+				"baseLineHeight"
+			],
+			[
+				"ng-",
+				"ng-class	angular class"
+			],
+			[
+				"ngre",
+				"ng-repeat	angular repeat"
+			],
+			[
+				"ngco",
+				"ng-controller	angular controller"
+			],
+			[
+				"bg",
+				"bgc	background-color"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"brdr",
+				"border-right"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bln",
+				"bdl-n	border-left: none;"
+			],
+			[
+				"brb",
+				"border-bottom"
+			],
+			[
+				"d-i",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"th",
+				"thumbnails"
+			],
+			[
+				"me",
+				"media-body"
+			],
+			[
+				"fw",
+				"fw:b	font-weight:bold"
+			],
+			[
+				"va",
+				"va:m	vertical-align:middle"
+			],
+			[
+				"tra",
+				"tra	transparent"
+			],
+			[
+				"la",
+				"l:a	left:auto"
+			],
+			[
+				"ta",
+				"ta	text-align: ${1:left};"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"in",
+				"inc	@include"
+			],
+			[
+				"brt",
+				"border-top"
+			],
+			[
+				"mh",
+				"mih	min-height"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"h",
+				"hide"
+			],
+			[
+				"hide",
+				"hide"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"pu",
+				"pull-right"
+			],
+			[
+				"bgp",
+				"background-position"
+			],
+			[
+				"bgr",
+				"bgr:n	background-repeat:no-repeat"
+			],
+			[
+				"bgi",
+				"bgi	background-image: url(${0});"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"l",
+				"l	left"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"bgc",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"i",
+				"inc	@include"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"cl",
+				"cl:b	clear:both"
+			],
+			[
+				"fl",
+				"fl:r	float:right"
+			],
+			[
+				"fon",
+				"font-variant"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"li",
+				"lis	list-style"
+			],
+			[
+				"d",
+				"d:ib	display:inline-block"
+			],
+			[
+				"cu",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"td",
+				"td-n	text-decoration: none;"
+			],
+			[
+				"p",
+				"pos:a	position:absolute"
+			],
+			[
+				"pr",
+				"pos:r	position:relative"
+			],
+			[
+				"v",
+				"v:h	visibility:hidden"
+			],
+			[
+				"tt",
+				"tt:u	text-transform:uppercase"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"form",
+				"form-actions"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"te",
+				"te:c	text-emphasis:circle"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"b",
+				"background-image"
+			],
+			[
+				"ho",
+				"hover"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"rb",
+				"rbox-inverse"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bc",
+				"border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"op",
+				"open"
+			],
+			[
+				"bn",
+				"bd-n	border: none;"
+			],
+			[
+				"bbn",
+				"bdb:n	border-bottom:none"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"footer",
+				"footer-links"
+			],
+			[
+				"tr",
+				"tra	transparent"
+			],
+			[
+				"lo",
+				"logo-elephant"
+			],
+			[
+				"imag",
+				"images"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/work/Envos/site/app/styles/main.css",
+		"/D/work/Envos/site/app/styles/main.scss",
+		"/D/work/Envos/site/app/bower_components/snapjs/bower.json",
+		"/D/work/Envos/site/test/spec/controllers/main.js",
+		"/D/work/Envos/site/app/styles/_bootstrap.scss",
+		"/D/work/Envos/site/app/styles/_responsive.scss",
+		"/D/work/Envos/site/app/styles/_font-awesome.scss",
+		"/D/work/Envos/site/app/styles/font-awesome/_path.scss",
+		"/D/work/samurai.fm/site/samurai-fm/app/styles/dev-watch.bat",
+		"/D/work/samurai.fm/site/samurai-fm/test/spec/controllers/mix.js",
+		"/C/Users/jaam/Downloads/Animat - Sculptured in Space mix   Animat   samurai.fm.htm",
+		"/D/work/samurai.fm/site/samurai-fm/test/spec/controllers/events.js",
+		"/D/work/samurai.fm/site/samurai-fm/test/spec/controllers/main.js",
+		"/D/work/samurai.fm/site/samurai-fm/test/spec/controllers/artists.js",
+		"/D/work/samurai.fm/site/samurai-fm/README.md",
+		"/D/work/samurai.fm/site/app/views/events.html",
+		"/D/work/samurai.fm/site/app/scripts/controllers/artists.js",
+		"/D/work/samurai.fm/site/app/views/artists.html",
+		"/D/work/samurai.fm/site/app/styles/dev-watch.bat",
+		"/D/work/samurai.fm/site/app/scripts/controllers/events.js",
+		"/D/work/samurai.fm/site/app/scripts/controllers/main.js",
+		"/D/work/samurai.fm/site/app/styles/font-awesome/_variables.scss",
+		"/D/work/samurai.fm/site/app/styles/_bootstrap.scss",
+		"/D/work/samurai.fm/site/app/styles/_font-awesome.scss",
+		"/D/work/samurai.fm/site/app/scripts/controllers/Artists.js",
+		"/D/work/Envos/site-server/yeoman/grunt.js",
+		"/D/work/Envos/site5/.jshintrc",
+		"/D/work/Envos/site5/app/.buildignore",
+		"/D/work/Envos/site3/app/scripts/app.js",
+		"/D/work/Envos/site3/app/styles/main.scss",
+		"/D/work/Envos/site3/component.json",
+		"/D/work/Envos/site3/dist/index.html",
+		"/D/work/Envos/site3/dist/scripts/dece8370.scripts.js",
+		"/D/work/Envos/site3/package.json",
+		"/D/work/Envos/site3/test/spec/controllers/main.js",
+		"/D/work/Envos/site/__Gruntfile.js",
+		"/D/work/Envos/site/app/apiServer/apiServer.js",
+		"/D/work/Envos/site/node_modules/grunt-karma/node_modules/karma/node_modules/http-proxy/README.md",
+		"/D/work/Envos/site/app/scripts/controllers/testUI.js",
+		"/D/work/Envos/site/app/components/angular-ui-bootstrap/src/accordion/docs/demo.js",
+		"/D/work/Envos/site/bower.json",
+		"/D/work/Envos/site/Gruntfile.js",
+		"/D/work/Envos/site/app/styles/font-awesome/_variables.scss",
+		"/D/work/Envos/site/app/styles/compass_twitter_bootstrap/_accordion.scss",
+		"/D/work/Envos/site/app/components/angular/bower.json",
+		"/D/work/Envos/site/app/index.html",
+		"/D/work/Envos/site/app/components/twitter-bootstrap-sass/bower.json",
+		"/C/wamp/www/angular/index.html",
+		"/C/wamp/www/kidsland/css/scss/lib/bootstrap/_breadcrumbs.scss",
+		"/C/wamp/www/kidsland/css/scss/lib/bootstrap/_carousel.scss",
+		"/C/wamp/www/kidsland/css/scss/lib/bootstrap/_pagination.scss",
+		"/C/wamp/www/kidsland/css/css-watch",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/css/scss/lib/bootstrap/_forms.scss",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/css/scss/lib/fuelfx/_checkbox.scss",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/css/scss/lib/fuelfx/_radio.scss",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/css/scss/lib/slider/_slider.scss",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/css/scss/lib/fuelfx/_pillbox.scss",
+		"/D/work/kids-land/kidsland/www/application/public/frontend/js/plugins/fuelfx/all.js",
+		"/D/initializr/index.html",
+		"/D/work/kids-land/kidsland/www/sftp-config.json",
+		"/D/work/flinch.com.ua/flinch2/flinch2.sublime-project",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/work/flinch.com.ua/flinch2/protected/views/site/user_list_pagination.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/search/_questionnaires.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/simpations/_simpationers.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_forms.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/gifts/index.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/gifts/send.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/markedComments/comments.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/markedComments/_comments.php",
+		"/D/work/flinch.com.ua/flinch2/protected/modules/Mail/views/mail/partials/_conversation.php",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/Wall/views/wall.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/simpations/simpations_index.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/markedComments/marks_page.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/markedComments/_next_marks_page.php",
+		"/D/work/flinch.com.ua/flinch2/protected/modules/Mail/views/mail/forms/newMessageForm.php",
+		"/D/work/flinch.com.ua/flinch2/protected/modules/Mail/views/mail/partials/_reviewMessage.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_font-awesome.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_buttons.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/site/index.php",
+		"/D/work/flinch.com.ua/flinch2/web/js/fling_lib/GiftsController.js",
+		"/D/work/flinch.com.ua/flinch2/web/styles/style.css",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/style.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profileSettings/myProfile.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profileSettings/security.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profileSettings/notification.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profileSettings/aboutMe.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_navbar.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_variables.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_button-groups.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_mixins.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_dropdowns.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_utilities.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_wells.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/Profile/views/left_profile.php",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/Profile/views/top_profile_info.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_thumbnails.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_grid.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_progress-bars.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/layouts/main.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profile/show_profile.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_type.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/search/index.php",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/Profile/views/profile_settings_tab.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_modals.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/register/first_step.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profileSettings/layout.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/images/index.php",
+		"/D/work/flinch.com.ua/flinch2/protected/views/images/_show.php",
+		"/D/work/flinch.com.ua/flinch2/web/js/fling_lib/imagesController.js",
+		"/D/work/flinch.com.ua/flinch2/protected/views/images/images_pagination.php",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/NewMembers/views/new_members.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/bootstrap.scss",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_carousel.scss",
+		"/D/work/flinch.com.ua/flinch2/web/js/fling_lib/wallController.js",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/variables.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/path.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/mixins.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/icons.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/font-awesome-ie7.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/extras.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/core.less",
+		"/D/work/flinch.com.ua/assets/font-awesome/less/bootstrap.less",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/font-awesome.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/views/profile/email_activation.php",
+		"/D/work/flinch.com.ua/flinch2/protected/modules/Updates/views/updates/partials/_inboxUpdatesList.php",
+		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_hero-unit.scss",
+		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/views/register.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\work\\samurai.fm\\site\\app",
+			"D:\\work\\Envos\\site3",
+			"D:\\work\\Envos\\site",
+			"D:\\work\\Envos\\site\\app",
+			"D:\\work\\kids-land\\kidsland\\www",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\web",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views\\profile",
+			"D:\\work\\flinch.com.ua\\flinch2\\web",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\styles\\scss\\bootstrap",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\styles\\scss",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\modules\\Mail\\views",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\styles\\scss",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\components",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views\\markedComments",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views\\profileSettings",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views\\profile",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\styles\\scss\\bootstrap",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js\\fling_lib",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\js",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\components\\widgets",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\web\\styles\\scss",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected\\views",
+			"D:\\work\\flinch.com.ua\\flinch2\\protected",
+			"D:\\work\\flinch.com.ua\\flinch2",
+			"W:\\public_html\\adaptainc.com\\trunk\\www\\css\\scss",
+			"W:\\public_html\\adaptainc.com\\trunk\\www\\css\\scss\\lib",
+			"W:\\public_html\\adaptainc.com\\trunk\\site\\tpl\\News",
+			"W:\\public_html\\adaptainc.com\\trunk\\www\\css\\scss",
+			"W:\\public_html\\adaptainc.com\\trunk\\site\\tpl\\Project",
+			"<open folders>",
+			"<open files>",
+			"W:\\public_html\\adaptainc.com\\trunk\\",
+			"W:\\public_html\\adaptainc.com\\trunk\\www\\css\\scss\\lib\\bootstrap",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap,*.php",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap ,+*.php",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\,+*.php",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\, +*.php",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\,+*.php",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\, -*.less, -*.css",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\, -*.less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\,-*.less,-*.css",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap",
+			"C:\\wamp\\www\\elephantspa.com.ua\\wp-content\\themes\\wordpress-bootstrap\\library\\less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"favori",
+			"h4",
+			" class=\"span1\"",
+			"Прожектора",
+			"\n.",
+			"prod-info",
+			"<p><h4",
+			"b>",
+			"<p><h4",
+			"b>",
+			"<p><h4",
+			"b>",
+			"<p><h4",
+			"b>",
+			"<p><h4",
+			"b>",
+			"<p><h4",
+			"b>",
+			"<b>",
+			"<br>",
+			"<p><h4",
+			"b>",
+			"h2",
+			"/snap-drawer",
+			"snap",
+			".",
+			".tr",
+			".",
+			"$mixin",
+			"@",
+			".",
+			"@import \"",
+			"background-color",
+			"color:",
+			"span",
+			"btn\"",
+			"span2",
+			"bg-",
+			"span3",
+			"{{feature",
+			"inline",
+			"ng-class=\"feature.genres[0] | lowercase\" ",
+			"latest-",
+			"duration: ",
+			"desc: '",
+			"background-color",
+			", .",
+			"{ color:#",
+			"color:",
+			"background-color:$black;",
+			"// background-color",
+			"trans",
+			"imgSrc",
+			"tags",
+			"compass",
+			"genres",
+			"genres:",
+			"genre",
+			"genre:",
+			"desc",
+			"duration",
+			"// background-color",
+			"background-color",
+			"compass",
+			"li",
+			"{",
+			",.",
+			"mix",
+			"<i",
+			"&amp",
+			"{",
+			"}",
+			"<td",
+			"<a h",
+			"tab-content-transclude",
+			"div",
+			"mix",
+			"li",
+			"wave/",
+			"div",
+			"gradient",
+			"li",
+			"ul",
+			"imagSrc",
+			"image-",
+			"\">",
+			" width=\"460\" height=\"260\"",
+			" class=\"feat-img\"",
+			"MainCtrl",
+			"compass",
+			"livereload",
+			"test",
+			"watch",
+			"livere",
+			"watc",
+			"require",
+			"bower",
+			"livereload-start",
+			"yeomanConfig",
+			"lrSnippet",
+			"Siski",
+			"mocha",
+			".run",
+			"livereload-start",
+			".run",
+			"run",
+			"livereload",
+			"concurrent",
+			"express",
+			"concurrent",
+			"express",
+			"connect",
+			"livereload",
+			"compo",
+			"listen(9000)",
+			"testUI",
+			"filter",
+			".un",
+			"legend",
+			"item",
+			"price",
+			"<span class=\"price\">3564 грн.</span>",
+			"cart",
+			"conter",
+			"ir",
+			"accordion2",
+			"filte",
+			"3 564"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Envos",
+			"karma",
+			"<span class=\"price\">3564 <small>грн.</small></span>",
+			"counter",
+			"category-vendors",
+			"3564",
+			"span4",
+			" btn-icon\"",
+			" btn-icon",
+			" class=\"btn btn-cart\"><i class=\"icon-shopping-cart\"></i>",
+			"",
+			"images/_tmp/",
+			"$",
+			"slide1.png",
+			"icon-shopping-cart",
+			"",
+			"lib/bootstrap/",
+			"",
+			"-56px",
+			"-94px",
+			"-56px",
+			"@include border-radius",
+			"$",
+			"form-post-comment",
+			"data-toggle='modal'",
+			"",
+			"hide",
+			"",
+			"<i class=\"state-online\">online</i>",
+			"",
+			"</strong>",
+			"<strong>",
+			"profile_setting_tab",
+			"first_step",
+			"class=\"btn\"",
+			"&:hover {",
+			"&:hover }",
+			"-35px",
+			"float",
+			"",
+			".thumb",
+			"",
+			".thumb",
+			"{$head.base}",
+			"",
+			"/",
+			"http://jaam.dev.adaptainc.com/gforceink.com/trunk/www/userfiles/ckfiles/images/",
+			"/",
+			"http://jaam.dev.adaptainc.com/gforceink.com/trunk/www",
+			"nav-sliding",
+			"nav-expand",
+			".btn-light",
+			".btn-dark",
+			"#masters .th-master",
+			"",
+			"h4",
+			"<h5>КЛАССИЧСКИЙ РЕАЛИЗМ ПРОДОЛЖАЕТ ВКУС.</h5>",
+			"<h4>КЛАССИЧСКИЙ РЕАЛИЗМ ПРОДОЛЖАЕТ ВКУС.</h4>",
+			"<i class=\"chevron-right\">&gt;</i>",
+			".cat-",
+			"cat- ",
+			"chevron-right",
+			" </span><i class=\"icon-chevron-right\"></i>",
+			" /><span class=\"top_label\">Традиционный тайский массаж<i class=\"icon-chevron-right\"></i></span></a></li>",
+			"@import \"",
+			"@import \"less/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 171.0
+	},
+	"output.sftp":
+	{
+		"height": 91.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}
