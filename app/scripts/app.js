@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('envosApp', ['ui.bootstrap', 'snap'])
+angular.module('envosApp', ['ui.bootstrap'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

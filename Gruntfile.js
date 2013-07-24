@@ -29,6 +29,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
     yeoman: yeomanConfig,
     watch: {
+      sass: {
+        files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}','<%= yeoman.app %>/styles/_partials/**/*.{scss,sass}'],
+        tasks: ['sass:dist']
+      },
       coffee: {
         files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
         tasks: ['coffee:dist']
@@ -112,6 +116,16 @@ module.exports = function (grunt) {
         'Gruntfile.js',
         '<%= yeoman.app %>/scripts/{,*/}*.js'
       ]
+    },
+    sass: {
+      dist: {
+          files: {
+              '<%= yeoman.app %>/styles/main.css': '<%= yeoman.app %>/styles/main.scss'
+          },
+          options: {
+              sourcemap: 'true'
+          }
+      }
     },
     coffee: {
       dist: {
