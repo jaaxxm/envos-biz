@@ -1,6 +1,9 @@
+_test
 node_modules
 dist
 .tmp
 .sass-cache
 app/bower_components
 app/images
+*.sublime-project
+*.sublime-workspace

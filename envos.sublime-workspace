@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"scope",
+				"angular: $scope"
+			],
+			[
+				"plas",
+				"plast"
+			],
+			[
+				"re",
+				"ng-repeat	angular repeat"
+			],
+			[
+				"ng",
+				"ng-click	angular click"
+			],
+			[
 				"mi",
 				"middle"
 			],
@@ -82,10 +102,6 @@
 			[
 				"ta",
 				"ta	text-align: ${1:left};"
-			],
-			[
-				"re",
-				"relative"
 			],
 			[
 				"co",
@@ -359,6 +375,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/main.html",
+			"settings":
+			{
+				"buffer_size": 4295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/main.js",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/services/stanok.js",
+			"settings":
+			{
+				"buffer_size": 2998,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/directives/stanokChooser.js",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 4308,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/data.html",
+			"settings":
+			{
+				"buffer_size": 13488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/nav.js",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/needs.html",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/needs.js",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 6074,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"command_palette":
@@ -419,7 +523,11 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
 	},
 	"distraction_free":
 	{
@@ -432,6 +540,12 @@
 	},
 	"file_history":
 	[
+		"/D/work/Envos/site/angular/envos.sublime-project",
+		"/D/work/Envos/site/app/scripts/services/categories.js",
+		"/D/work/Envos/site/README.md",
+		"/D/work/Envos/site/.gitignore",
+		"/D/work/Envos/site/app/styles/font-awesome/_variables.scss",
+		"/D/work/Envos/site/app/images/logo.svg",
 		"/D/work/Envos/site/app/styles/main.css",
 		"/D/work/Envos/site/app/styles/main.scss",
 		"/D/work/Envos/site/app/bower_components/snapjs/bower.json",
@@ -474,7 +588,6 @@
 		"/D/work/Envos/site/app/components/angular-ui-bootstrap/src/accordion/docs/demo.js",
 		"/D/work/Envos/site/bower.json",
 		"/D/work/Envos/site/Gruntfile.js",
-		"/D/work/Envos/site/app/styles/font-awesome/_variables.scss",
 		"/D/work/Envos/site/app/styles/compass_twitter_bootstrap/_accordion.scss",
 		"/D/work/Envos/site/app/components/angular/bower.json",
 		"/D/work/Envos/site/app/index.html",
@@ -554,12 +667,7 @@
 		"/D/work/flinch.com.ua/assets/font-awesome/less/font-awesome-ie7.less",
 		"/D/work/flinch.com.ua/assets/font-awesome/less/extras.less",
 		"/D/work/flinch.com.ua/assets/font-awesome/less/core.less",
-		"/D/work/flinch.com.ua/assets/font-awesome/less/bootstrap.less",
-		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/font-awesome.scss",
-		"/D/work/flinch.com.ua/flinch2/protected/views/profile/email_activation.php",
-		"/D/work/flinch.com.ua/flinch2/protected/modules/Updates/views/updates/partials/_inboxUpdatesList.php",
-		"/D/work/flinch.com.ua/flinch2/web/styles/scss/bootstrap/_hero-unit.scss",
-		"/D/work/flinch.com.ua/flinch2/protected/components/widgets/views/register.php"
+		"/D/work/flinch.com.ua/assets/font-awesome/less/bootstrap.less"
 	],
 	"find":
 	{
@@ -705,6 +813,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bin",
+			"span",
+			"$scope.discount",
+			"span",
+			"bottom: \"fix.svg\",",
+			"angle: \"19/3100\",",
+			"luminocity:",
+			"head: \"ikp\",",
+			"head: \"nkp\",",
+			"bottom: \"plast\",",
+			"head: \"ikp\",",
+			"luminocity: \"2300\",",
+			"span",
+			"head: \"nkp\",",
+			"head: \"ikp\",",
+			"head",
+			"ИКП10У-50-",
+			"ИКП10У",
+			"ИКП09У",
+			"НКП01У",
+			"nkp",
+			"НКП01У-",
+			"0,",
+			"НКП01У",
+			"th>",
+			"<strong>",
 			"favori",
 			"h4",
 			" class=\"span1\"",
@@ -806,33 +940,7 @@
 			"yeomanConfig",
 			"lrSnippet",
 			"Siski",
-			"mocha",
-			".run",
-			"livereload-start",
-			".run",
-			"run",
-			"livereload",
-			"concurrent",
-			"express",
-			"concurrent",
-			"express",
-			"connect",
-			"livereload",
-			"compo",
-			"listen(9000)",
-			"testUI",
-			"filter",
-			".un",
-			"legend",
-			"item",
-			"price",
-			"<span class=\"price\">3564 грн.</span>",
-			"cart",
-			"conter",
-			"ir",
-			"accordion2",
-			"filte",
-			"3 564"
+			"mocha"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -916,8 +1024,363 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1104,
+								1104
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/controllers/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								612,
+								612
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/services/stanok.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2998
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/directives/stanokChooser.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "/\\()\"'-:,;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/data.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13460,
+								13460
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/scripts/controllers/nav.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/needs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/scripts/controllers/needs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"word_separators": "/\\()\"'-:,;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -960,6 +1423,7 @@
 	{
 		"height": 91.0
 	},
+	"project": "envos.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -981,10 +1445,24 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 245.0,
-	"status_bar_visible": true
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

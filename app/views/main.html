@@ -2,9 +2,9 @@
     <div class="span2">
       <ul class="nav">
         <li ng-repeat="category in productCategories">
-          <a href="">{{category.title}}</a>
+          <a href="" ng-bind="category.title"></a>
           <span ng-repeat="subcategory in category.type">
-            <a href="">{{subcategory}}</a>
+            <a href="" ng-bind="subcategory"></a>
           </span> 
         </li>
       </ul>
@@ -13,32 +13,44 @@
       <div class="row-fluid">
         <div class="span3">
           <div class="stanok">
-            <div class="head">
-              <img src="images/stanok/head/ikp.png" alt="">
+            <!-- <div class="head">
+              <a 
+                ng-repeat="headBody in stanok | unique:'head'" 
+                ng-click="setHead()">
+                <img ng-src="images/stanok/head/{{headBody.head}}" alt="">
+              </a>
               <span>вкл</span>
             </div>
             <div class="stoika">
-              <span>360 mm</span>
+              <a 
+                ng-repeat="stoika in stanok | unique:'height'" 
+                ng-click="setHeight()" 
+                ng-bind="stoika.height">
+              </a>
             </div>
             <div class="bottom">
-              <img src="images/stanok/bottom/plast.png" alt="">
-              <span>вкл</span>              
+              <a 
+                ng-repeat="bottomBody in stanok | unique:'bottom'" 
+                ng-click="setBottom()">
+                <img ng-src="images/stanok/bottom/{{bottomBody.bottom}}" alt="">
+              </a>
+              <span>вкл</span>               -->
             </div>            
           </div>
         </div>
         <div class="span4">
-          <h2>НКП01У-100-001</h2>
+          <h2 ng-bind="stanok.title"></h2>
           <p>
             Защитный угол, град<br />
-            <strong>19&deg;</strong>
+            <strong ng-bind="stanok.angle"></strong>
           </p>
           <p>
             Минимальная освещенность<br />
-            <strong>3100</strong>
+            <strong ng-bind="stanok.luminocity"></strong>
           </p>
           <p>
             Масса, кг<br />
-            <strong>1.2</strong>
+            <strong ng-bind="stanok.weight"></strong>
           </p>
         </div>
         <div class="span5 prod-info">

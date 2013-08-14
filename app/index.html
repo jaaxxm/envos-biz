@@ -1,8 +1,9 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js"> <!--<![endif]-->
+<html data-ng-app="envosApp" data-ng-controller="envosAppCtrl">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -14,8 +15,8 @@
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-</head>
-  <body ng-app="envosApp">
+  </head>
+  <body ng-class="{'skip-animations':disabled}" class="ng-cloak">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
@@ -26,17 +27,24 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->   
+    <div class="navbar-fixed-top">
+      <div class="container-fluid">
+        <p class="text-center">
+          <a class="logo" href="#"><img src="images/logo.svg" alt="Энвос"></a>
+          <span class="tagline">Добавь света</span>
+        </p>
+      </div>
+    </div>
     <!-- MAIN NAV -->
-    <div class="navbar navbar-inverse navbar-fixed-top" ng-controller="NavCtrl">
+    <div class="navbar navbar-inverse navbar-fixed-bottom" ng-controller="NavCtrl">
       <div class="navbar-inner">
         <div class="container-fluid">
-          <a class="logo" href="#"><img src="images/logo.svg" alt="Энвос"></a>
           <button type="button" class="btn btn-navbar" ng-click="isCollapsed = !isCollapsed">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="nav-collapse collapse" collapse="isCollapsed">
+          <div class="pull-left nav-collapse collapse" collapse="isCollapsed">
             <ul class="nav">
               <li>
                 <a href="#products">Продукция</a>
@@ -49,14 +57,14 @@
               </li>
             </ul>
           </div>
-          <a href="callto:+380352430000" class="phone"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
+          <a href="callto:+380352430000" class="pull-right phone"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
           <!--/.nav-collapse -->
         </div>
       </div>
     </div> 
 
     <!-- Views Holder -->
-    <div class="container-fluid" ng-view="">
+    <div id="ng-view" class="wrapper-content container-fluid" data-ng-view="" ng-animate="{enter: 'view-enter'}">
     </div>
     <!--/.fluid-container-->
 
@@ -73,18 +81,22 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/main.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/modules.js -->
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="scripts/controllers/contact.js"></script>
+    
+    <script src="scripts/controllers/nav.js"></script>
+    <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/products.js"></script>
     <script src="scripts/controllers/product.js"></script>
     <script src="scripts/controllers/needs.js"></script>
-    <script src="scripts/controllers/nav.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+
+    <script src="scripts/services/stanok.js"></script>
+    <script src="scripts/services/categories.js"></script>
     <!-- endbuild -->
 </body>
 </html>

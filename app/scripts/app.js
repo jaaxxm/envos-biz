@@ -1,6 +1,9 @@
 'use strict';
 
 angular.module('envosApp', ['ui.bootstrap'])
+  .controller('envosAppCtrl', function($rootScope) {
+    $rootScope.topScope = $rootScope;
+  })
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
