@@ -18,7 +18,8 @@ module.exports = function (grunt) {
 
   // configurable paths
   var yeomanConfig = {
-    app: 'app',
+    app: '_test/pages-animation/app',
+    // app: 'app',
     dist: 'dist'
   };
 

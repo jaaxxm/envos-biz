@@ -1,1 +1,0 @@
-sass --watch --scss --sourcemap main.scss:main.css

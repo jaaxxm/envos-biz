@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('envosApp', ['ui.bootstrap'])
+angular.module('envosApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
   .controller('envosAppCtrl', function($rootScope) {
     $rootScope.topScope = $rootScope;
   })
