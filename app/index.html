@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
   </head>
-  <body ng-class="{'skip-animations':disabled}" class="ng-cloak">
+  <body class="ng-cloak">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
@@ -26,48 +26,35 @@
       <script src="components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
-    <!-- Add your site or application content here -->   
-    <div class="navbar-fixed-top">
-      <div class="container-fluid">
-        <p class="text-center">
-          <a class="logo" href="#"><img src="images/logo.svg" alt="Энвос"></a>
-          <span class="tagline">Добавь света</span>
-        </p>
-      </div>
-    </div>
-    <!-- MAIN NAV -->
-    <div class="navbar navbar-inverse navbar-fixed-bottom" ng-controller="NavCtrl">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <button type="button" class="btn btn-navbar" ng-click="isCollapsed = !isCollapsed">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="pull-left nav-collapse collapse" collapse="isCollapsed">
-            <ul class="nav">
-              <li>
-                <a href="#products">Продукция</a>
-              </li>
-              <li>
-                <a href="#needs">Закупаем</a>
-              </li>
-              <li>
-                <a href="#contact">Контакты</a>
-              </li>
-            </ul>
-          </div>
-          <a href="callto:+380352430000" class="pull-right phone"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
-          <!--/.nav-collapse -->
-        </div>
-      </div>
-    </div> 
+    <!-- Header and Navigation -->   
+    <header class="hdr-main text-center">
+        <a class="logo" href="#"><img src="images/logo.svg" alt="Энвос"></a>
+    </header>
+    <p class="tagline">Добавь света</p>
 
+    <nav class="nav-main" ng-controller="NavCtrl">
+      <div class="container">
+        <ul class="nav nav-inline left">
+          <li>
+            <a href="#main">На главную</a>
+          </li>
+          <li>
+            <a href="#products">Продукция</a>
+          </li>
+          <li>
+            <a href="#needs">Закупаем</a>
+          </li>
+          <li>
+            <a href="#contact">Контакты</a>
+          </li>
+        </ul>
+        <a href="callto:+380352430000" class="link-phone right"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
+      </div>
+    </nav>
     <!-- Views Holder -->
-    <div class="wrapper-content container-fluid">
-      <div id="ng-view" data-ng-view=""></div>
-    </div>
-    <!--/.fluid-container-->
+    <div class="pt-perspective">
+      <div ng-view="" class="pt-page"></div>
+    </div>    
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -77,19 +64,14 @@
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
 
-    <script src="components/angular-unstable-1-2-rc/angular.js"></script>
-    <script src="components/angular-unstable-1-2-rc/angular-route.js"></script>
-    <script src="components/angular-unstable-1-2-rc/angular-animate.js"></script>
-    <script src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>      
+    <script src="components/angular-unstable/angular.min.js"></script>
+    <script src="components/angular-route/angular-route.min.js"></script>
+    <script src="components/angular-animate/angular-animate.min.js"></script>
+    <script src="components/angular-ui/build/angular-ui.min.js"></script>
+
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
-    <!-- endbuild -->
-
-    <!-- build:js scripts/modules.js -->
-    <script src="components/angular-resource/angular-resource.js"></script>
-    <script src="components/angular-cookies/angular-cookies.js"></script>
-    <script src="components/angular-sanitize/angular-sanitize.js"></script>
     
     <script src="scripts/controllers/nav.js"></script>
     <script src="scripts/controllers/main.js"></script>
@@ -100,6 +82,12 @@
 
     <script src="scripts/services/stanok.js"></script>
     <script src="scripts/services/categories.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/modules.js -->
+    <script src="components/angular-resource/angular-resource.js"></script>
+    <script src="components/angular-cookies/angular-cookies.js"></script>
+    <script src="components/angular-sanitize/angular-sanitize.js"></script>        
     <!-- endbuild -->
 </body>
 </html>

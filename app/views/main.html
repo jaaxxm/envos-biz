@@ -1,105 +1,68 @@
-  <div class="row-fluid">
-    <div class="span2">
-      <ul class="nav">
-        <li ng-repeat="category in productCategories">
-          <a href="" ng-bind="category.title"></a>
-          <span ng-repeat="subcategory in category.type">
-            <a href="" ng-bind="subcategory"></a>
-          </span> 
-        </li>
-      </ul>
+<div class="wrapper">
+
+  <div class="container">
+    <button ng-click="promo='nkp'">Slide 1: Why AngularJS?</button>
+    <button ng-click="promo='ikp'">Slide 2: Alternatives</button>
+    <button ng-click="promo='nsp'">Slide 3: Extensibility</button>
+    
+    <div class="promo-container"
+      ng-switch="promo">
+        <div class="promo-block" ng-switch-default>NKP</div>
+        <div class="promo-block" ng-switch-when="ikp">IKP</div>
+        <div class="promo-block" ng-switch-when="nsp">NSP</div>
     </div>
-    <div class="span10">
-      <div class="row-fluid">
-        <div class="span3">
-          <div class="stanok">
-            <!-- <div class="head">
-              <a 
-                ng-repeat="headBody in stanok | unique:'head'" 
-                ng-click="setHead()">
-                <img ng-src="images/stanok/head/{{headBody.head}}" alt="">
-              </a>
-              <span>вкл</span>
-            </div>
-            <div class="stoika">
-              <a 
-                ng-repeat="stoika in stanok | unique:'height'" 
-                ng-click="setHeight()" 
-                ng-bind="stoika.height">
-              </a>
-            </div>
-            <div class="bottom">
-              <a 
-                ng-repeat="bottomBody in stanok | unique:'bottom'" 
-                ng-click="setBottom()">
-                <img ng-src="images/stanok/bottom/{{bottomBody.bottom}}" alt="">
-              </a>
-              <span>вкл</span>               -->
-            </div>            
-          </div>
-        </div>
-        <div class="span4">
-          <h2 ng-bind="stanok.title"></h2>
-          <p>
-            Защитный угол, град<br />
-            <strong ng-bind="stanok.angle"></strong>
-          </p>
-          <p>
-            Минимальная освещенность<br />
-            <strong ng-bind="stanok.luminocity"></strong>
-          </p>
-          <p>
-            Масса, кг<br />
-            <strong ng-bind="stanok.weight"></strong>
-          </p>
-        </div>
-        <div class="span5 prod-info">
-          <h4>Назначение</h4>
-          <p>Светильник серии НКП 01У предназначены для местного освещения рабочих зон сверлильных, токарных и других станков, сборочных столов, а также разного производственного оборудования. Светильники рассчитаны на работу от сети с номинальным напряжением 24В или 36В постоянного или переменного тока частоты 50 или 60 Гц. Климатическое исполнение УХЛ4.</p>
-          <h4>Источник света</h4>
-          <p>Лампы МО 24-60, 24-100, 36-60, 36-100 или импортные аналоги  мощностью 60 и 100Вт.  </p>
-          <h4>Монтаж</h4>
-          <p>Светильник крепится основанием на горизонтальную или вертикальную поверхность с помощью четырёх винтов.  </p>
-          <h4>Составные части</h4>
-          <p>Гибкая часть изготовлена из стали ОК и пружинной стали класса В1, покрытые цинком, основание и корпус - полиамид стеклонаполненый, отражатель - металлический белый.</p>
-          <h4>Комплект поставки</h4>
-          <p>1. Светильник.<br>Лампа в комплект поставки не входит</p>
-        </div>
-      </div>
-      <!--/row-->      
-      <div class="row-fluid">
-        <div class="span3">
-          <h4>Плафон</h4>
-          <img src="http://envos.biz/img/products/46.jpg" alt="">
-        </div>
-        <div class="span4">
-          <h2>НСП 21-100</h2>
-          <p>
-            Лампа<br />
-            <strong>150 Вт</strong>
-          </p>
-          <p>
-            Степень защиты<br />
-            <strong>M</strong>
-          </p>
-          <p>
-            Кривая силы света/КПД (%)<br />
-            <strong>77</strong>
-          </p>
-        </div>        
-        <div class="span5 prod-info">
-          <h4>Назначение</h4>
-          <p>Для общего освещения промышленных и вспомогательных помещений. Рассчитаны на эксплуатацию в районах с умеренным климатом (от -10 C до +40 С)</p>
-          <h4>Источник света</h4>
-          <p>Лампа ЛОН100, ЛОН200 или их импортные аналоги.</p>
-          <h4>Монтаж</h4>
-          <p>Крепятся на трy6y G3/4-B, вертикальный монтажный профиль или крюк в зависимости от исполнения. Рекомендуемая высота установки: 3...6м</p>
-          <h4>Составные части</h4>
-          <p>Корпусные детали изготовлены из поликарбоната чёрного цвета, светопропускающий защитный колпак - из силикатного прозрачного стекла, по заказу защитная сетка - пластмассовая, исполнение с одним сальниковым вводом.</p>
-        </div>
-      </div>
-      <!--/row-->      
-    </div>  
-    <!--/span-->
   </div>
-  <!--/row-->
+
+<!--   
+  <div class="stanok">
+    <div class="head">
+      <a 
+        ng-repeat="headType in stanok"> 
+        <img ng-src="images/stanok/head/{{headType.head}}" alt="">
+      </a>
+      <span>вкл</span>
+    </div>
+    <div class="stoika">
+      <a 
+        ng-repeat="stoika in stanok" 
+        ng-bind="stoika.height">
+      </a>
+    </div>
+    <div class="bottom">
+      <a 
+        ng-repeat="bottomBody in stanok">
+        <img ng-src="images/stanok/bottom/{{bottomBody.bottom}}" alt="">
+      </a>
+      <span>вкл</span>
+    </div>            
+  </div>
+  
+  <h2 ng-bind="stanok.title"></h2>
+  <p>
+    Защитный угол, град<br />
+    <strong ng-bind="stanok.angle"></strong>
+  </p>
+  <p>
+    Минимальная освещенность<br />
+    <strong ng-bind="stanok.luminocity"></strong>
+  </p>
+  <p>
+    Масса, кг<br />
+    <strong ng-bind="stanok.weight"></strong>
+  </p>
+          
+  <div class="prod-info">
+    <h4>Назначение</h4>
+    <p>Светильник серии НКП 01У предназначены для местного освещения рабочих зон сверлильных, токарных и других станков, сборочных столов, а также разного производственного оборудования. Светильники рассчитаны на работу от сети с номинальным напряжением 24В или 36В постоянного или переменного тока частоты 50 или 60 Гц. Климатическое исполнение УХЛ4.</p>
+    <h4>Источник света</h4>
+    <p>Лампы МО 24-60, 24-100, 36-60, 36-100 или импортные аналоги  мощностью 60 и 100Вт.  </p>
+    <h4>Монтаж</h4>
+    <p>Светильник крепится основанием на горизонтальную или вертикальную поверхность с помощью четырёх винтов.  </p>
+    <h4>Составные части</h4>
+    <p>Гибкая часть изготовлена из стали ОК и пружинной стали класса В1, покрытые цинком, основание и корпус - полиамид стеклонаполненый, отражатель - металлический белый.</p>
+    <h4>Комплект поставки</h4>
+    <p>1. Светильник.<br>Лампа в комплект поставки не входит</p>
+  </div>
+-->  
+</div>
+    

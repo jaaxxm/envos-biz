@@ -4,7 +4,6 @@
   "dependencies": {
     "es5-shim": "~2.0.12",
     "json3": "~3.2.5",
-    // "angular": "~1.0.7",
     "angular-unstable": "1.2.0rc1",
     "angular-scenario": "~1.0.7",
     "angular-cookies": "~1.0.7",
@@ -24,7 +23,6 @@
     "**/.*",
     "node_modules",
     "components",
-    "bower_components",
     "test",
     "tests"
   ]

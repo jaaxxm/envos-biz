@@ -1,10 +1,20 @@
-
-<div ng-repeat="item in items">
-<span>{{item.title}}</span>
-<input ng-model="item.quantity">
-<span>{{item.price | currency}}</span>
-<span>{{item.price * item.quantity | currency}}</span>
+<div class="wrapper">
+	<div class="container">
+		<h1>Закупаем</h1>
+		<p class="text-center">Наше предприятие закупает на постоянной основе:</p>
+		<ul class="boxes box4">
+			<li>
+				Полиамид стеклонаполненный 10%-й (отечественный или зарубежный аналоги )
+			</li>
+			<li>
+				Проволока ОК 2,5  без отжига
+			</li>
+			<li>
+				Проволока пружинная В -II 3,00 мм
+			</li>
+			<li>
+				Труба прямошовная Ø 18*1,5
+			</li>
+		</ul>
+	</div>
 </div>
-<div>Total: {{totalCart() | currency}}</div>
-<div>Discount: {{bill.discount | currency}}</div>
-<div>Subtotal: {{subtotal() | currency}}</div>

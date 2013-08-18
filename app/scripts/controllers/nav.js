@@ -2,5 +2,5 @@
 
 angular.module('envosApp')
   .controller('NavCtrl', function ($scope) {
-    $scope.isCollapsed = false;
+    $scope.name = "John";
   });

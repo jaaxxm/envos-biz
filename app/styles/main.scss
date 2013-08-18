@@ -1,24 +1,176 @@
-@import "lib/bootstrap";
-@import "lib/responsive";
+// @import "lib/bootstrap";
+// @import "lib/responsive";
+@import "lib/bourbon";
+@import "lib/neat";
 @import "lib/font-awesome";
+@import "lib/animations";
 
-body {padding-bottom: 60px;}
-.navbar-fixed-top, .navbar-fixed-bottom {
-    background: $bodyBackground;
+@import url("http://fonts.googleapis.com/css?family=Istok+Web|Noto+Serif&subset=latin,cyrillic-ext");
+// -------------------------
+// -------------------------
+//            VARS
+// -------------------------
+// -------------------------
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        #333 !default;
+$textColor:             #eee !default;
+$headingsColor:         #e6e6e6 !default;
+
+// Links
+// -------------------------
+$linkColor:             #FF5E07 !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+// Type
+// -------------------------
+$sans:                  "Istok Web", sans-serif !default;
+$serif:                 "Noto Serif", serif !default;
+
+$baseFontFamily:        $sans !default;
+$baseFontSize:          16px !default;
+$baseLineHeight:        25px !default;
+
+// Scaffolding
+html, body {
+  // font-family: "Open Sans Condensed", sans-serif;  
+  height: 100%;
 }
-.wrapper-content {
-    padding-top: 120px;
-    padding-bottom: 100px;
+html {
+    font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
+body {
+  margin: 0;
+  font-family: $baseFontFamily;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  background: $bodyBackground;
+  color: $textColor;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: ($baseLineHeight / 2) 0;
+  font-family: $serif;
+  font-weight: normal;
+  color: $headingsColor;
+  text-rendering: optimizelegibility; // Fix the character spacing for headings
+}
+
+h1,
+h2,
+h3 { line-height: $baseLineHeight * 1.5; }
+
+h1 { font-size: $baseFontSize * 2.75; } // ~38px
+h2 { font-size: $baseFontSize * 2.25; } // ~32px
+h3 { font-size: $baseFontSize * 1.75; } // ~24px
+h4 { font-size: $baseFontSize * 1.25; } // ~18px
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+  &:hover {color: $linkColorHover;}
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Utilities
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.container {
+  @include outer-container;
+}
+
+// Layout
+.wrapper {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  height: 100%;
+  background: $bodyBackground;
+}
+.hdr-main, .nav-main {
+  z-index: 1000;
+  width: 100%;
+}
+.hdr-main {
+  @include position(fixed, 0px 0 auto 0);
+}
+.nav-main {
+  background-color: #222;
+  height: 45px;
+  @include position(fixed, auto 0 0px 0);
+}
+
+// Header
 .logo {
-    display: block;
-    margin: 0 auto;
-    width: 100px;
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+.tagline {
+  z-index: 1;
+  width: 100%;
+  @extend .text-center;
+  @include position(fixed, 50% auto auto auto);
+}
+// Navigation
+.nav-main a {
+  padding: 0 15px;
+  line-height: 45px;
 }
 
-#ng-view {
-  position:relative;
-  min-height:500px;
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-inline {
+  display: inline;
+  width: auto;
+  height: auto !important;
+  li {
+    float: left;
+  }  
+}
+.nav-stack {
+  li {}  
 }
 
+ul.boxes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.box2 > li {
+  @include span-columns(6);
+  @include omega(2n);
+}
+.box3 > li {
+  @include span-columns(4);
+  @include omega(3n);
+}
+.box4 > li {
+  @include span-columns(3);
+  @include omega(4n);
+}
+
+//  Temp styles
 .prod-info {display: none !important;}
