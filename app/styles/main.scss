@@ -1,36 +1,10 @@
 // @import "lib/bootstrap";
 // @import "lib/responsive";
+@import "vars";
 @import "lib/bourbon";
 @import "lib/neat";
 @import "lib/font-awesome";
 @import "lib/animations";
-
-@import url("http://fonts.googleapis.com/css?family=Istok+Web|Noto+Serif&subset=latin,cyrillic-ext");
-// -------------------------
-// -------------------------
-//            VARS
-// -------------------------
-// -------------------------
-
-// Scaffolding
-// -------------------------
-$bodyBackground:        #333 !default;
-$textColor:             #eee !default;
-$headingsColor:         #e6e6e6 !default;
-
-// Links
-// -------------------------
-$linkColor:             #FF5E07 !default;
-$linkColorHover:        darken($linkColor, 15%) !default;
-
-// Type
-// -------------------------
-$sans:                  "Istok Web", sans-serif !default;
-$serif:                 "Noto Serif", serif !default;
-
-$baseFontFamily:        $sans !default;
-$baseFontSize:          16px !default;
-$baseLineHeight:        25px !default;
 
 // Scaffolding
 html, body {
@@ -98,6 +72,9 @@ img {
 .container {
   @include outer-container;
 }
+.container-full {
+  @include fill-parent;
+}
 
 // Layout
 .wrapper {
@@ -114,7 +91,7 @@ img {
   @include position(fixed, 0px 0 auto 0);
 }
 .nav-main {
-  background-color: #222;
+  background-color: $navBackground;
   height: 45px;
   @include position(fixed, auto 0 0px 0);
 }
@@ -122,7 +99,7 @@ img {
 // Header
 .logo {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 180px;
 }
 .tagline {
@@ -134,7 +111,7 @@ img {
 // Navigation
 .nav-main a {
   padding: 0 15px;
-  line-height: 45px;
+  line-height: 44px;
 }
 
 .nav {
@@ -153,6 +130,24 @@ img {
 .nav-stack {
   li {}  
 }
+
+
+.promo-block {
+  @include outer-container;
+}
+
+.model {
+  @include span-columns(4);
+}
+.tech {
+  @include span-columns(4);
+}
+.tech-left {
+    @extend .text-right;
+  }
+.tech-right {
+    @include omega();
+  }
 
 ul.boxes {
   margin: 0;

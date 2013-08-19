@@ -40,6 +40,39 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
   }
 }
 
+@mixin prefixer-multi ($property, $val1, $val2, $prefixes) {
+  @each $prefix in $prefixes {
+    @if $prefix == webkit {
+      @if $prefix-for-webkit {
+        -webkit-#{$property}: $val1 $val2;
+      }
+    }
+    @else if $prefix == moz {
+      @if $prefix-for-mozilla {
+        -moz-#{$property}: $val1 $val2;
+      }
+    }
+    @else if $prefix == ms {
+      @if $prefix-for-microsoft {
+        -ms-#{$property}: $val1 $val2;
+      }
+    }
+    @else if $prefix == o {
+      @if $prefix-for-opera {
+        -o-#{$property}: $val1 $val2;
+      }
+    }
+    @else if $prefix == spec {
+      @if $prefix-for-spec {
+        #{$property}: $val1 $val2;
+      }
+    }
+    @else  {
+      @warn "Unrecognized prefix: #{$prefix}";
+    }
+  }
+}
+
 @mixin disable-prefix-for-all() {
   $prefix-for-webkit:    false;
   $prefix-for-mozilla:   false;

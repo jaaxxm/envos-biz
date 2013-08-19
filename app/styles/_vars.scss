@@ -1,0 +1,32 @@
+// -------------------------
+// -------------------------
+//            VARS
+// -------------------------
+// -------------------------
+
+@import url("http://fonts.googleapis.com/css?family=Istok+Web|Noto+Serif&subset=latin,cyrillic-ext");
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        #333 !default;
+$textColor:             #eee !default;
+$headingsColor:         #e6e6e6 !default;
+
+// Links
+// -------------------------
+$linkColor:             #FF5E07 !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+// Type
+// -------------------------
+$sans:                  "Istok Web", sans-serif !default;
+$serif:                 "Noto Serif", serif !default;
+
+$baseFontFamily:        $sans !default;
+$baseFontSize:          16px !default;
+$baseLineHeight:        25px !default;
+
+// Nav
+// -------------------------
+$navBackground:        #222 !default;
+$navHeight: 		       44px !default;
