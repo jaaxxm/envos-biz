@@ -1,104 +1,38 @@
 <div class="wrapper">
-
+  <!-- Nav Slide -->
+  <ul class="nav nav-promo">
+    <li ng-repeat="promo in promos">
+      <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
+    </li>
+<!--     
+    <li><a class="" ng-click="showPromo(0)">nkp</a></li>
+    <li><a class="" ng-click="showPromo(1)">ikp</a></li>
+    <li><a class="" ng-click="showPromo(2)">nsp</a></li> -->
+  </ul>
   <div class="container-full">
-    <button ng-click="promo='nkp'">Slide 1: Why AngularJS?</button>
-    <button ng-click="promo='ikp'">Slide 2: Alternatives</button>
-    <button ng-click="promo='nsp'">Slide 3: Extensibility</button>
-    
-    <div class="promo-container" ng-switch="promo">
-        
-        <div class="promo-block" ng-switch-default>
-          <h2 class="text-center">НКП01У-100-004</h2>
-           
-          <div class="tech tech-left">
-            <p>
-              Защитный угол, град<br />
-              <strong>19</strong>
-            </p>
-            <p>
-              Высота, мм<br />
-              <strong>650</strong>
-            </p>
-          
-          </div>
-
-          <div class="model">
-            <div class="head">
-              <a href=""> 
-                <img ng-src="images/stanok/head/nkp.svg" alt="">
-              </a>
-              <span>вкл</span>
-            </div>
-            <div class="middle">
-              <a href=""></a>
-            </div>
-            <div class="bottom">
-              <a href=""> 
-                <img ng-src="images/stanok/bottom/metal.svg" alt="">
-              </a>
-              <span>вкл</span>
-            </div>            
-          </div>
-
-          <div class="tech tech-right">
-            <p>
-              Минимальная освещенность<br />
-              <strong>2300</strong>
-            </p>
-            <p>
-              Масса, кг<br />
-              <strong>1.1</strong>
-            </p>
-          </div>
-
-        </div>
-        
-        <div class="promo-block" ng-switch-when="ikp">
-          
-          <div class="model">
-            <div class="head">
-              <a href=""> 
-                <img ng-src="images/stanok/head/ikp.svg" alt="">
-              </a>
-              <span>вкл</span>
-            </div>
-            <div class="middle">
-              <a href=""></a>
-            </div>
-            <div class="bottom">
-              <a href=""> 
-                <img ng-src="images/stanok/bottom/plast.svg" alt="">
-              </a>
-              <span>вкл</span>
-            </div>            
-          </div>
-        </div>
-        
-        <div class="promo-block" ng-switch-when="nsp">
-
-          <div class="model">          
-            <a href=""> 
-              <img ng-src="images/stanok/bottom/plast.svg" alt="">
-            </a>
-            <span>вкл</span> 
-          </div>
-        </div>
-    </div>    
-  
-  </div>
-        
-<div class="prod-info">
-  <h4>Назначение</h4>
-  <p>Светильник серии НКП 01У предназначены для местного освещения рабочих зон сверлильных, токарных и других станков, сборочных столов, а также разного производственного оборудования. Светильники рассчитаны на работу от сети с номинальным напряжением 24В или 36В постоянного или переменного тока частоты 50 или 60 Гц. Климатическое исполнение УХЛ4.</p>
-  <h4>Источник света</h4>
-  <p>Лампы МО 24-60, 24-100, 36-60, 36-100 или импортные аналоги  мощностью 60 и 100Вт.  </p>
-  <h4>Монтаж</h4>
-  <p>Светильник крепится основанием на горизонтальную или вертикальную поверхность с помощью четырёх винтов.  </p>
-  <h4>Составные части</h4>
-  <p>Гибкая часть изготовлена из стали ОК и пружинной стали класса В1, покрытые цинком, основание и корпус - полиамид стеклонаполненый, отражатель - металлический белый.</p>
-  <h4>Комплект поставки</h4>
-  <p>1. Светильник.<br>Лампа в комплект поставки не входит</p>
-</div>
+    <!-- Slide -->
+    <div class="promo-container">
+      <div class="promo-block" ng-include="promo.url"></div>  
+    </div>        
+  </div>        
 
 </div>
-    
+
+
+<!-- <button 
+  ng-class="getLanguageOptionClass(lan)" 
+  ng-repeat="lan in language.available" 
+  ng-click="language.current=lan">{{lan}}
+</button>
+
+<script>
+  var I18nController = function($scope){
+   $scope.language = {
+     current: 'no', 
+     available: ['en', 'no', 'sv', 'da', 'fi']
+   };
+   $scope.getLanguageOptionClass = function(language){
+    return ($scope.language.current==language) ? 'btn btn-primary' : 'btn btn-info';
+  }
+};
+</script> -->

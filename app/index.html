@@ -1,9 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js csstransforms3d"> <!--<![endif]-->
-<html data-ng-app="envosApp" data-ng-controller="envosAppCtrl">
+<html data-ng-app="envosApp" data-ng-controller="envosAppCtrl" class="no-js csstransforms3d no-touch">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,9 +8,9 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css({.tmp,app}) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
   </head>
   <body class="ng-cloak">
     <!--[if lt IE 7]>
@@ -36,16 +32,24 @@
       <div class="container">
         <ul class="nav nav-inline left">
           <li>
-            <a href="#main"><span data-hover="Главная">Главная</span></a>
+            <a href="#main" ng-class="{active: $route.current.activetab == 'main'}">
+              <span data-hover="Главная">Главная</span>
+            </a>
           </li>
           <li>
-            <a href="#products"><span data-hover="Продукция">Продукция</span></a>
+            <a href="#products" ng-class="{active: $route.current.activetab == 'products'}">
+              <span data-hover="Продукция">Продукция</span>
+            </a>
           </li>
           <li>
-            <a href="#needs"><span data-hover="Закупаем">Закупаем</span></a>
+            <a href="#needs" ng-class="{active: $route.current.activetab == 'needs'}">
+              <span data-hover="Закупаем">Закупаем</span>
+            </a>
           </li>
           <li>
-            <a href="#contact"><span data-hover="Контакты">Контакты</span></a>
+            <a href="#contact" ng-class="{active: $route.current.activetab == 'contact'}">
+              <span data-hover="Контакты">Контакты</span>
+            </a>
           </li>
         </ul>
         <a href="callto:+380352430000" class="link-phone right"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>

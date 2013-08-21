@@ -31,7 +31,7 @@ module.exports = function (grunt) {
     yeoman: yeomanConfig,
     watch: {
       sass: {
-        files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}','<%= yeoman.app %>/styles/_partials/**/*.{scss,sass}'],
+        files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}','<%= yeoman.app %>/styles/lib/**/*.{scss,sass}'],
         tasks: ['sass:dist']
       },
       coffee: {

@@ -1,10 +1,11 @@
 // @import "lib/bootstrap";
-// @import "lib/responsive";
-@import "vars";
+
+@import "lib/vars";
 @import "lib/bourbon";
 @import "lib/neat";
 @import "lib/font-awesome";
 @import "lib/animations";
+@import "lib/layout";
 
 // Scaffolding
 html, body {
@@ -129,6 +130,12 @@ img {
 }
 .nav-stack {
   li {}  
+}
+.nav-promo {
+  z-index: 100;
+  margin-top: -30px;
+  @include position(fixed, 50% auto auto 0);
+  a.active { color: $textColor}
 }
 
 

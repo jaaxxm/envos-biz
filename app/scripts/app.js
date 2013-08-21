@@ -8,23 +8,23 @@ angular.module('envosApp', ['ngRoute', 'ngAnimate'])
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        activetab: 'main'
       })
       .when('/products', {
         templateUrl: 'views/products.html',
-        controller: 'ProductsCtrl'
-      })
-      .when('/product', {
-        templateUrl: 'views/product.html',
-        controller: 'ProductCtrl'
-      })
+        controller: 'ProductsCtrl',
+        activetab: 'products'
+      })      
       .when('/needs', {
         templateUrl: 'views/needs.html',
-        controller: 'NeedsCtrl'
+        controller: 'NeedsCtrl',
+        activetab: 'needs'
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl'
+        controller: 'ContactCtrl',
+        activetab: 'contact'
       })
       .otherwise({
         redirectTo: '/'
