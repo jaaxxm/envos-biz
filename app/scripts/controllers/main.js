@@ -1,5 +1,5 @@
 angular.module('envosApp')
-  .controller('MainCtrl', function ($scope, $window, Stanok) {
+  .controller('MainCtrl', function ($scope, Stanok) {
 
     // Stanok lighting
     $scope.stanok = Stanok;
@@ -17,12 +17,6 @@ angular.module('envosApp')
 	  	$scope.promo = $scope.promos[num];
 	  	$scope.trigger = num;
 	  }
-
-    // $scope.imgNumber = "1";
-    // $scope.change = function(imgNumber) {
-    //     $scope.imgNumber = imgNumber;
-    // }
-
 
 		$scope.getSelectedSlide = function(num){
 		  return ($scope.trigger==num) ? 'active' : '';

@@ -1,4 +1,4 @@
-// Generated on 2013-07-05 using generator-angular 0.3.0
+// Generated on 2013-07-25 using generator-angular 0.3.0
 'use strict';
 var LIVERELOAD_PORT = 35729;
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
@@ -18,7 +18,6 @@ module.exports = function (grunt) {
 
   // configurable paths
   var yeomanConfig = {
-    // app: '_test/pages-animation/app',
     app: 'app',
     dist: 'dist'
   };
@@ -31,8 +30,8 @@ module.exports = function (grunt) {
     yeoman: yeomanConfig,
     watch: {
       sass: {
-        files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}','<%= yeoman.app %>/styles/lib/**/*.{scss,sass}'],
-        tasks: ['sass:dist']
+          files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}','<%= yeoman.app %>/styles/lib/**/*.{scss,sass}'],
+          tasks: ['sass:dist']
       },
       coffee: {
         files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
@@ -120,12 +119,12 @@ module.exports = function (grunt) {
     },
     sass: {
       dist: {
-          files: {
-              '<%= yeoman.app %>/styles/main.css': '<%= yeoman.app %>/styles/main.scss'
-          },
-          options: {
-              sourcemap: 'true'
-          }
+        files: {
+          '<%= yeoman.app %>/styles/main.css': '<%= yeoman.app %>/styles/main.scss'
+        },
+        options: {
+          sourcemap: 'true'
+        }
       }
     },
     coffee: {

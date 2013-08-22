@@ -4,20 +4,12 @@
     <li ng-repeat="promo in promos">
       <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
     </li>
-<!--     
-    <li><a class="" ng-click="showPromo(0)">nkp</a></li>
-    <li><a class="" ng-click="showPromo(1)">ikp</a></li>
-    <li><a class="" ng-click="showPromo(2)">nsp</a></li> -->
   </ul>
-  <div class="container-full">
-    <!-- Slide -->
+  <!-- Slide -->
     <div class="promo-container">
       <div class="promo-block" ng-include="promo.url"></div>  
-    </div>        
-  </div>        
-
+    </div>
 </div>
-
 
 <!-- <button 
   ng-class="getLanguageOptionClass(lan)" 
