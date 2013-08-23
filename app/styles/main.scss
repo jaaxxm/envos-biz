@@ -137,10 +137,13 @@ img {
 }
 
 .promo-block {
-  // @include outer-container;
+ // @include outer-container;
+}
+.slide-item, .slide-descr {
+  @include outer-container;  
 }
 
-.model {
+.stanok {
   @include span-columns(4);
 }
 .tech {
@@ -169,6 +172,27 @@ ul.boxes {
 .box4 > li {
   @include span-columns(3);
   @include omega(4n);
+}
+
+.head {
+  display: block;
+  background: url('../images/stanok/head/nkp.svg') 50% 100% no-repeat;
+  background-size: contain;
+  @include size(auto 150px);
+}
+.middle {
+  display: block;
+  background-image: url('../images/stanok/middle/still.svg'), url('../images/stanok/middle/flex.svg');
+  background-position: 50% -30%, 50% 0%;
+  background-repeat: no-repeat, repeat-y;
+  background-size: 20px auto, 18px auto;
+  @include size(auto 250px);
+}
+.bottom {
+  display: block;
+  background: url('../images/stanok/bottom/plast.svg') 50% 100% no-repeat;
+  background-size: contain; 
+  @include size(auto 50px);
 }
 
 //  Temp styles

@@ -2118,12 +2118,23 @@ img {
   .nav-promo a.active {
     color: #eeeeee; }
 
-.model {
+.slide-item, .slide-descr {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .slide-item:before, .slide-item:after, .slide-descr:before, .slide-descr:after {
+    content: " ";
+    display: table; }
+  .slide-item:after, .slide-descr:after {
+    clear: both; }
+
+.stanok {
   display: block;
   float: left;
   margin-right: 2.35765%;
   width: 31.76157%; }
-  .model:last-child {
+  .stanok:last-child {
     margin-right: 0; }
 
 .tech {
@@ -2177,6 +2188,29 @@ ul.boxes {
     margin-right: 0; }
   .box4 > li:nth-child(4n+1) {
     clear: left; }
+
+.head {
+  display: block;
+  background: url("../images/stanok/head/nkp.svg") 50% 100% no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 150px; }
+
+.middle {
+  display: block;
+  background-image: url("../images/stanok/middle/still.svg"), url("../images/stanok/middle/flex.svg");
+  background-position: 50% -30%, 50% 0%;
+  background-repeat: no-repeat, repeat-y;
+  background-size: 20px auto, 18px auto;
+  width: auto;
+  height: 250px; }
+
+.bottom {
+  display: block;
+  background: url("../images/stanok/bottom/plast.svg") 50% 100% no-repeat;
+  background-size: contain;
+  width: auto;
+  height: 50px; }
 
 .prod-info {
   display: none !important; }
