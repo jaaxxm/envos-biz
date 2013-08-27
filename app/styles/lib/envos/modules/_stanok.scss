@@ -1,0 +1,42 @@
+.promo-block {
+ // @include outer-container;
+}
+.slide-item, .slide-descr {
+  @include outer-container;  
+}
+.slide-descr { display: none;}
+.slide-link {
+  @extend .text-center;  
+}
+.stanok {
+  @include span-columns(4);
+}
+.tech {
+  @include span-columns(4);
+}
+.tech-left {
+  @include ta(right);
+}
+.tech-right {
+  @include omega();
+}
+
+.nkp {
+  .head {
+    background: url('../images/stanok/head/nkp.svg') 50% 100% no-repeat;
+    background-size: contain;
+    @include size(auto 150px);
+  }
+  .middle {
+    background-image: url('../images/stanok/middle/still.svg'), url('../images/stanok/middle/flex.svg');
+    background-position: 50% 180px, 50% 0%;
+    background-repeat: no-repeat, repeat-y;
+    background-size: 20px auto, 18px auto;
+    @include size(auto 250px);
+  }
+  .bottom {
+    background: url('../images/stanok/bottom/plast.svg') 50% 100% no-repeat;
+    background-size: contain; 
+    @include size(auto 50px);
+  }
+}

@@ -1,0 +1,198 @@
+////////////////
+//   MAIN NAV
+////////////////
+.nav-main .nav a {
+  line-height: 44px;
+  @include ta(center);  
+  @include perspective(1000px);
+}
+
+.nav-main .nav a span {
+  position: relative;
+  display: inline-block;
+  padding: 0 14px;
+  background: darken($navBackground, 5%);
+/*   background: $navBackground; */
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  @include transform-origin(50% 0%);
+  @include transform-style(preserve-3d);
+}
+
+.csstransforms3d .nav-main .nav a span::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+/*   background: darken($navBackground, 5%); */
+  content: attr(data-hover);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  @include transform(rotateX(-90deg));
+  @include transform-origin(50% 0%);  
+}
+
+.nav-main .nav a:hover span,
+.nav-main .nav a:focus span,
+.nav-main .nav a.active span  {
+  @include transform-multi(rotateX(90deg), translateY(-22px));
+}
+
+.csstransforms3d .nav-main .nav a:hover span::before,
+.csstransforms3d .nav-main .nav a:focus span::before, 
+.csstransforms3d .nav-main .nav a.active span::before {
+  background: lighten($navBackground, 5%);
+}
+
+////////////////
+//   Buttons
+////////////////
+// .link-more:before {
+//   font-family: 'FontAwesome';
+//   content: $plus;
+// }
+// .link-more {
+//   display: inline-block;
+//   font-size: 0px;
+//   cursor: pointer;
+//   margin: 15px;
+//   border-radius: 50%;
+//   position: relative;
+//   z-index: 1;
+//   color: #fff;
+//   @include size(45);
+//   @include ta(center);
+//   &:before {
+//     speak: none;
+//     font-size: 27px;
+//     line-height: 45px;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-variant: normal;
+//     text-transform: none;
+//     display: block;
+//   }
+//   &:after {
+//     pointer-events: none;
+//     position: absolute;
+//     border-radius: 50%;
+//     content: '';
+//     @include box-sizing(content-box);
+//     @include size(100%);
+//   }
+// }
+// .link-more {
+//   background: rgba(255,255,255,0.1);
+//   @include transition-property (background, color);
+//   @include transition-duration(0.2s);
+//   @include transition-timing-function($ease-in-sine);
+//   &:after {
+//     top: -7px;
+//     left: -7px;
+//     padding: 7px;
+//     box-shadow: 0 0 0 4px #fff;
+//     opacity: 0;
+//     @include transition-property (transform, opacity);
+//     @include transition-duration(0.2s);
+//     @include transition-timing-function($ease-in-sine);
+//     @include transform(scale(.8));      
+//   }
+// }
+// .no-touch .link-more:hover {
+//   background: rgba(255,255,255,1);
+//   color: $linkColor;
+//   &:after {
+//     opacity: 1;
+//     @include transform(scale(1));
+//   }
+// }
+
+// a.link-more {
+//   margin: 20px auto 0;
+//   position: relative;
+//   &:before, &:after {
+//     border: 2px solid rgba(255,255,255,0.4);
+//     border-radius: 50%;
+//     content: '';
+//     opacity: 0;
+
+//     @include position(absolute, 0 auto auto 50%);  
+//     @include size(100);
+//     @include transition-property (transform, opacity);
+//     @include transition-duration(0.3s);
+//     @include transition-timing-function($ease-in-sine);
+//     @include transform(translateX(-50%));
+//     @include transform(translateY(-50%));
+//     @include transform(scale(0.2));
+//   }
+
+//   &:after {
+//     border-width: 6px;
+//     @include transform(translateX(-50%));
+//     @include transform(translateY(-50%));
+//     @include transform(scale(0.8));
+//     @include size(90);
+//   }
+
+//   &:hover, &:focus {
+//     outline: none;
+//     &:before, &:after {
+//       opacity: 1;
+//       @include transform(translateX(-50%));
+//       @include transform(translateY(-50%));
+//       @include transform(scale(1));
+//     }
+//   }
+// }
+a.link-more {
+  background: $navBackground;
+  cursor: pointer;
+  padding: 25px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;  
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;  
+  -webkit-transform: rotateX(15deg);
+  -moz-transform: rotateX(15deg);
+  -ms-transform: rotateX(15deg);
+  transform: rotateX(15deg);
+  &:after {
+    width: 100%;
+    height: 40%;
+    left: 0;
+    top: 100%;
+    background: darken($navBackground, 10%);
+    -webkit-transform-origin: 0% 0%;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform-origin: 0% 0%;
+    -moz-transform: rotateX(-90deg);
+    -ms-transform-origin: 0% 0%;
+    -ms-transform: rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transform: rotateX(-90deg);
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  &:active {
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }   
+}

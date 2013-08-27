@@ -1,0 +1,25 @@
+// Navigation
+.nav-main a {
+  padding: 0 15px;
+  line-height: 44px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-inline {
+  display: inline;
+  width: auto;
+  height: auto !important;
+  li {
+    float: left;
+  }  
+}
+.nav-stack {
+  li {}  
+}
+.nav-promo {
+  a.active { color: $textColor}
+}

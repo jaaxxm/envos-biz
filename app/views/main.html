@@ -1,30 +1,15 @@
 <div class="wrapper">
-  <!-- Nav Slide -->
-  <ul class="nav nav-promo">
-    <li ng-repeat="promo in promos">
-      <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
-    </li>
-  </ul>
+  <div class="promo-container">    
   <!-- Slide -->
-    <div class="promo-container">
-      <div class="promo-block" ng-include="promo.url"></div>  
+    <div class="promo-block" ng-include="promo.url"></div>      
+  <!-- Nav Slide -->
+    <div class="promo-nav">
+      <ul class="nav">
+        <li ng-repeat="promo in promos">
+          <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
+        </li>
+      </ul>
     </div>
+
+  </div>
 </div>
-
-<!-- <button 
-  ng-class="getLanguageOptionClass(lan)" 
-  ng-repeat="lan in language.available" 
-  ng-click="language.current=lan">{{lan}}
-</button>
-
-<script>
-  var I18nController = function($scope){
-   $scope.language = {
-     current: 'no', 
-     available: ['en', 'no', 'sv', 'da', 'fi']
-   };
-   $scope.getLanguageOptionClass = function(language){
-    return ($scope.language.current==language) ? 'btn btn-primary' : 'btn btn-info';
-  }
-};
-</script> -->

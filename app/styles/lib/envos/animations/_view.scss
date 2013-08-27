@@ -13,8 +13,8 @@
   // overflow: hidden;
   z-index: 10;
   @include size(100%);  
-  @include transform(translate3d(0, 0, 0));
-  @include backface-visibility(hidden);
+  @include backface-visibility(hidden);  //  commented to maintain nav promos fixed position
+  @include transform(translate3d(0, 0, 0));  //  commented to maintain nav promos fixed position
 }
 
 .pt-page-current,
@@ -28,19 +28,30 @@
   z-index: 999;
 }
 
+.promo-container {
+  @include flexbox;
+  @include flex-dir(column);
+  @include align-items(stretch);
+  @include align-content(stretch);  
+}
+.promo-block {
+  @include flex(1, 1, auto);
+}
+.promo-nav {
+  @include flex(0, 1, auto);
+}
 
 .promo-container {
   position: relative;
-  z-index: 15;
-  @include size(100%);
+  z-index: 15;   
   @include transform-style(preserve-3d);
   @include perspective(1200px);
 }
+
 .promo-block {
   position: absolute;
   top: 0;
-  left: 0;
-  // overflow: hidden;
+  left: 0;  
   z-index: 16;
   @include size(100%);
   @include transform(translate3d(0, 0, 0));

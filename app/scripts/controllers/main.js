@@ -5,9 +5,9 @@ angular.module('envosApp')
     $scope.stanok = Stanok;
 
 	  $scope.promos = [ 
-	  	{ title: 'nkp', url: 'views/promo/nkp.html'}, 
-	  	{ title: 'ikp', url: 'views/promo/ikp.html'}, 
-	  	{ title: 'nsp', url: 'views/promo/nsp.html'}
+	  	{ title: 'Станочные светильники: серия НКП 01У', url: 'views/promo/nkp.html'}, 
+	  	{ title: 'Станочные светильники: серия ИКП 01У', url: 'views/promo/ikp.html'}, 
+	  	{ title: 'Обогревающие светильники: серия НКП 01У', url: 'views/promo/nsp.html'}
 	  ];
 	  
 	  $scope.promo = $scope.promos[0];

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Энвос</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="target-densityDpi=device-dpi, width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp,app}) styles/main.css -->
@@ -24,37 +24,37 @@
 
     <!-- Header and Navigation -->   
     <header class="hdr-main text-center">
-        <a class="logo" href="#"><img src="images/logo.svg" alt="Энвос - Добавь света"></a>
-    </header>
-    <p class="tagline">Добавь света</p>
-
-    <nav class="nav-main" ng-controller="NavCtrl">
       <div class="container">
-        <ul class="nav nav-inline left">
-          <li>
-            <a href="#main" ng-class="{active: $route.current.activetab == 'main'}">
-              <span data-hover="Главная">Главная</span>
-            </a>
-          </li>
-          <li>
-            <a href="#products" ng-class="{active: $route.current.activetab == 'products'}">
-              <span data-hover="Продукция">Продукция</span>
-            </a>
-          </li>
-          <li>
-            <a href="#needs" ng-class="{active: $route.current.activetab == 'needs'}">
-              <span data-hover="Закупаем">Закупаем</span>
-            </a>
-          </li>
-          <li>
-            <a href="#contact" ng-class="{active: $route.current.activetab == 'contact'}">
-              <span data-hover="Контакты">Контакты</span>
-            </a>
-          </li>
-        </ul>
-        <a href="callto:+380352430000" class="link-phone right"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
-      </div>
-    </nav>
+        <nav class="nav-main" ng-controller="NavCtrl">
+          <img class="logo left" src="images/logo.svg" alt="Энвос - Добавь света">
+          <ul class="nav nav-inline left">
+            <li>
+              <a href="#main" ng-class="{active: $route.current.activetab == 'main'}">
+                <span data-hover="Главная">Главная</span>
+              </a>
+            </li>
+            <li>
+              <a href="#products" ng-class="{active: $route.current.activetab == 'products'}">
+                <span data-hover="Продукция">Продукция</span>
+              </a>
+            </li>
+            <li>
+              <a href="#needs" ng-class="{active: $route.current.activetab == 'needs'}">
+                <span data-hover="Закупаем">Закупаем</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact" ng-class="{active: $route.current.activetab == 'contact'}">
+                <span data-hover="Контакты">Контакты</span>
+              </a>
+            </li>
+          </ul>
+          <a href="callto:+380352430000" class="link-phone right"><i class="icon-phone visible-phone"></i> +38(0352) 43-00-00</a>
+        </div>
+      </nav>
+    </header>
+    <!-- <p class="tagline">Добавь света</p> -->
+
     <!-- Views Holder -->
     <div class="pt-perspective">
       <div ng-view="" class="pt-page"></div>

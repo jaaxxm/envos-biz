@@ -2,10 +2,6 @@
 //  none | <transform-function>
   @include prefixer(transform, $property, webkit moz ms o spec);
 }
-@mixin transform-multi($prop1: none, $prop2: none) {
-//  none | <transform-function>
-  @include prefixer-multi(transform, $prop1, $prop2, webkit moz ms o spec);
-}
 
 @mixin transform-origin($axes: 50%) {
 // x-axis - left | center | right  | length | %
