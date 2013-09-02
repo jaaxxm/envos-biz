@@ -28,13 +28,16 @@
   z-index: 999;
 }
 
-.promo-container {
+.wrapper {
+  padding: 60px 0 0;
+  @include size(100%);
   @include flexbox;
   @include flex-dir(column);
   @include align-items(stretch);
-  @include align-content(stretch);  
+  @include align-content(stretch);
 }
-.promo-block {
+.promo-container {
+  overflow: auto;
   @include flex(1, 1, auto);
 }
 .promo-nav {

@@ -40,3 +40,22 @@
     @include size(auto 50px);
   }
 }
+.ikp {
+  .head {
+    background: url('../images/stanok/head/ikp.svg') 50% 100% no-repeat;
+    background-size: contain;
+    @include size(auto 150px);
+  }
+  .middle {
+    background-image: url('../images/stanok/middle/still.svg'), url('../images/stanok/middle/flex.svg');
+    background-position: 50% 180px, 50% 0%;
+    background-repeat: no-repeat, repeat-y;
+    background-size: 20px auto, 18px auto;
+    @include size(auto 250px);
+  }
+  .bottom {
+    background: url('../images/stanok/bottom/plast.svg') 50% 100% no-repeat;
+    background-size: contain; 
+    @include size(auto 50px);
+  }
+}

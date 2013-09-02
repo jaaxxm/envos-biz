@@ -20,6 +20,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  height: 100%;  
   min-height: 100%;  
   margin: 0;
   font-family: $baseFontFamily;
@@ -78,14 +79,14 @@ img {
 }
 
 // Layout
-.wrapper {
-  position: relative;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  height: 100%;
-  background: $bodyBackground;
-}
-.hdr-main, .nav-main {
+// .wrapper {
+//   position: relative;
+//   padding-top: 80px;
+//   padding-bottom: 60px;
+//   height: 100%;
+//   background: $bodyBackground;
+// }
+.hdr-main {
   z-index: 1000;
   width: 100%;
 }

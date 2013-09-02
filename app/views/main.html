@@ -1,15 +1,16 @@
 <div class="wrapper">
+  
   <div class="promo-container">    
   <!-- Slide -->
     <div class="promo-block" ng-include="promo.url"></div>      
   <!-- Nav Slide -->
-    <div class="promo-nav">
-      <ul class="nav">
-        <li ng-repeat="promo in promos">
-          <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
-        </li>
-      </ul>
-    </div>
-
   </div>
+  <div class="promo-nav">
+    <ul class="nav nav-promo">
+      <li ng-repeat="promo in promos">
+        <a ng-class="getSelectedSlide($index)" ng-click="showPromo($index)">{{promo.title}}</a>
+      </li>
+    </ul>
+  </div>
+
 </div>
